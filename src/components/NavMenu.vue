@@ -30,8 +30,8 @@ nav {
 
 
 <script setup>
-import { useAuth } from '../composables/useAuth'
-const { isAuthenticated, logout, user} = useAuth()
+//import { useAuth } from '../composables/useAuth'
+//const { isAuthenticated, logout, user} = useAuth()
 
 
 </script>

@@ -5,8 +5,8 @@ import CardDetails from './views/CardDetails.vue'
 import LoginPage from './views/LoginPage.vue'
 import SettingsPage  from './views/SettingsPage.vue'
 
-import { useAuth } from './composables/useAuth'
-const {isAuthenticated} = useAuth()
+//import { useAuth } from './composables/useAuth'
+//const {isAuthenticated} = useAuth()
 
 const routes = [
   { path: '/project5/', name: 'Home', component: HomePage },
