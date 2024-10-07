@@ -5,7 +5,7 @@ import MainCardSingle from './MainCardSingle.vue'
 
 
 <template>
-<div class="grid grid-cols-5 gap-10 p-10">
+<div class="grid grid-cols-8 gap-10 p-10">
     <MainCardSingle v-for="card in 20" :key="card"></MainCardSingle> 
 </div>
 

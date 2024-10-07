@@ -27,7 +27,7 @@ const route = useRoute()
 
 const username = ref('')
 const password = ref('')
-/*
+
 const logUserIn = async () => {
     if (await login(username.value, password.value)) {
         if (route.query.redirect) {
@@ -40,7 +40,7 @@ const logUserIn = async () => {
         logout()
     }
     
-}*/
+}
 
 
 </script>
